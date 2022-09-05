@@ -1,0 +1,87 @@
+{
+	"Name": "Fruit Bowl", //The name of our recipe and what it produces
+	"Description": "A refreshing assortment of fresh crisp fruit", //A description which will appear when you click on the item
+	"Category": "Cooking", //This goes in the cooking menu, not the crafting menu
+  
+	"Edibility": 60, //This will set how much health your recipe will give when consumed. The exact math is a little arcane, and also affects the energy gained.
+	"EdibleIsDrink": false, //This is food, so it's not a drink. Drinks and food can both give buffs at the same time.
+  
+	"EdibleBuffs": {
+					"Farming": 1,
+					"Fishing": 0,
+					"Mining": 0,
+					"Luck": 0,
+					"Foraging": 1,
+					"MaxStamina": 20, //This will boost max endurance by 20
+					"MagnetRadius": 0,
+					"Speed": 0,
+					"Defense": 0,
+					"Attack": 0,
+					"Duration": 180, //The buff will last for 180 seconds
+  },
+  
+	"Price": 300, //Selling the fruit bowl will grant you 300g
+  
+	"IsColored": false, //there aren't different colored vesions of our dish
+  
+	"Recipe": {
+			  "ResultCount": 1, //Making this recipe will give you ONE dish of fruit bowl
+			  
+			  "Ingredients": [
+								{
+								   "Object": "Apricot", //This recipe requires apricot
+								   "Count": 1, //specifically, it requires 1 of them
+								},
+								{
+								   "Object": "Grape", //It also requires 1 grape
+								   "Count": 1,
+								},
+								{
+								   "Object": "Apple", //And one apple
+								   "Count": 1,
+								}
+			      ],
+			   
+			   "IsDefault": "False", //The player does not know this recipe by default at the start of the game
+			   
+			   "CanPurchase": "True", //this recipe can be purchased
+			   "PurchaseFrom": "Gus", //This recipe can be bought from Gus			   
+			   "PurchasePrice": 300, //Gus will charge a mere 300g for this recipe
+			   
+			   "PurchaseRequirements": ["f Gus 250"], //The player must have 1 heart (250 friend points) with Gus before the recipe will be available.
+			},
+  
+	"GiftTastes": { //Anyone we do not set will default to how they feel about cooking in general. As cooking is a 'universal like,' most NPCs gifted our green beans will like them.
+					"Love": [ "Harvey", "Alex", ], //Harvey and Alex will love our recipe
+					"Like": [ "Leah", "Lewis", ], //Leah and Lewis will like it
+"Neutral": [ ], //No one feels neutral to the dish
+					"Dislike": [ "Vincent", "Dwarf"], //Vincent and Dwarf dislike our recipe
+					"Hate": [  ],	//No one will hate our dish
+	},
+	"NameLocalization": {
+		// "es": "",
+		// "ko": "",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": ""
+		// "ru": "",
+		// "tr": "",
+		// "zh": ""
+	  },
+	  "DescriptionLocalization": {
+		// "es": "",
+		// "ko": "",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": ""
+		// "ru": "",
+		// "tr": "",
+		// "zh": ""
+	  }
+}
