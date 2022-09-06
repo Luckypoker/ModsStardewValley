@@ -1,0 +1,11 @@
+{
+    "Name": "New Dialogue",
+    "Author": "Artificient",
+    "Version": "1.0.0",
+    "Description": "A small mod adding new dialogue to some interactions",
+    "UniqueID": "Artificient.NewDialogue",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+  }
