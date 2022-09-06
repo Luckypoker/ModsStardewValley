@@ -1,0 +1,12 @@
+{
+    "Name": "A store mod",
+    "Author": "Artificient",
+    "Version": "1.0.0",
+    "Description": "just a simple mod following a tutorial",
+    "UniqueID": "Artificient.shop_test",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+      "UniqueID": "Cherry.ShopTileFramework"
+    }
+  }

@@ -1,0 +1,20 @@
+{
+	"VanillaShops": //we are editing a shop that is in the original game
+	[
+	{
+		"ShopName": "KrobusShop", //the shop we are editing is Krobus'
+		
+		"ItemStocks": [
+		{
+			"ItemType": "Object", //we are adding an object for sale, not clothing, furniture, or something else
+			"ItemNames": [ "Vinegar", ], //the item Krobus will sell is vinegar
+			"IsRecipe": "false", //vinegar is not a recipe
+			"StockPrice": 100, //Krobus should sell vinegar for 100
+			"Stock": 3, //Krobus should have 3 vinegar in stock each day that he sells them
+			"When": [ "d Mon Tue Thu Fri Sat", ], //Krobus will only sell vinegar Sunday and Wednesday. This line can be a little tricky!
+		}, ],
+		
+		"PriceMultiplierWhen": { "0.75": [ "f Krobus 500" ], },
+				
+	}, ],
+}

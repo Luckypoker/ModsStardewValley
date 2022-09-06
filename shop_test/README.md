@@ -1,0 +1,1 @@
+A mod purely following an online tutorial https://stardewmodding.miraheze.org/wiki/Tutorial:_Adding_Items_to_a_Shop
