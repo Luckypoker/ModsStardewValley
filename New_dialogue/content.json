@@ -1,0 +1,30 @@
+{
+
+    "Format": "1.20",   //This is the edition of Content Patcher needed to run your mod. When it doubt, use the latest edition.
+    
+    
+    "Changes": [    	//This is where you tell Content Patcher what changes to the game your mod is making
+        
+        { 
+        
+            "Action": "EditData",   //This tells CP you are EDITING the following data (not replacing it)
+            "Target": "Characters/Dialogue/Andy",   //This tells CP which file you are editing
+    
+            "Entries": {   //these are all the changes you want made
+                
+                        //add a line
+                        "spring_4_1": "Howdy farmer @! I'd buy you a drink to welcome ya, but I spent my drinkin money on seeds for the season.$h",  //Andy will say hello and attempt to welcome you on the first year of spring on the 4th. @ is the player's name. $h means use his happy face
+                
+                        //delete a line
+                        "summer_Sat": null, //Andy will no longer say his set dialogue for Saturdays in summer.
+                
+                        //change a line
+                        "fall_Fri": "You're welcome to join Pam, Shane and I at the saloon tonight. We play spoons for drinkin money.", //Andy will say this instead of his set dialogue on Fridays during fall.
+                
+                        },
+        
+        },		
+    ]
+                
+    }
+    
