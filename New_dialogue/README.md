@@ -1,0 +1,1 @@
+A test dialogue created while following a tutorial https://stardewmodding.miraheze.org/wiki/Tutorial:_Adding_New_Dialogue
