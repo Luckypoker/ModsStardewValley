@@ -1,0 +1,11 @@
+{
+    "Name": "Recipe Fruit Bowl",
+    "Author": "Artificient",
+    "Version": "1.0.0",
+    "Description": "A purchasable recipe to create a delicious fruit bowl",
+    "UniqueID": "Artificient.RecipeFruitBowl",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets",
+   }
+ }
