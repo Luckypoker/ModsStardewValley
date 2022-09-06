@@ -29,15 +29,15 @@
 			  
 			  "Ingredients": [
 								{
-								   "Object": "Apricot", //This recipe requires apricot
+								   "Object": 634, //This recipe requires apricot
 								   "Count": 1, //specifically, it requires 1 of them
 								},
 								{
-								   "Object": "Grape", //It also requires 1 grape
+								   "Object": 398, //It also requires 1 grape
 								   "Count": 1,
 								},
 								{
-								   "Object": "Apple", //And one apple
+								   "Object": 613, //And one apple
 								   "Count": 1,
 								}
 			      ],
