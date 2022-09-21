@@ -1,0 +1,10 @@
+{
+    "Name": "Pawpaw Tree",
+    "Product": "Pawpaw",
+    "SaplingName": "Pawpaw Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Pawpaw tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
+    "Season": "fall",
+    "SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 4000,
+    "SaplingPurchaseRequirements": y 2,
+}
