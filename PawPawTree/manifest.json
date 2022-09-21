@@ -1,0 +1,11 @@
+{
+    "Name": "Seasonal PawPaw Tree",
+    "Author": "Artificient",
+    "Version": "1.0.0",
+    "Description": "A new fall time crop of a PawPaw Tree",
+    "UniqueID": "Artificient.SeasonalPawPawTree",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets",
+   }
+ }
