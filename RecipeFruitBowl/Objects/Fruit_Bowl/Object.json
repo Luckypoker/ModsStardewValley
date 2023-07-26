@@ -46,12 +46,12 @@
 			   
 			   "CanPurchase": "True", //this recipe can be purchased
 			   "PurchaseFrom": "Gus", //This recipe can be bought from Gus			   
-			   "PurchasePrice": 300, //Gus will charge a mere 300g for this recipe
+			   "PurchasePrice": 1300, //Gus will charge a mere 1300g for this recipe
 			   
 			   "PurchaseRequirements": ["f Gus 250"], //The player must have 1 heart (250 friend points) with Gus before the recipe will be available.
 			},
   
-	"GiftTastes": { //Anyone we do not set will default to how they feel about cooking in general. As cooking is a 'universal like,' most NPCs gifted our green beans will like them.
+	"GiftTastes": { //Anyone we do not set will default to how they feel about cooking in general. As cooking is a 'universal like,' most NPCs will like them.
 					"Love": [ "Harvey", "Alex", ], //Harvey and Alex will love our recipe
 					"Like": [ "Leah", "Lewis", ], //Leah and Lewis will like it
 "Neutral": [ ], //No one feels neutral to the dish
